@@ -9,7 +9,11 @@ import javafx.fxml.FXMLLoader;
 
 /**
  * @author Opiskelu
+<<<<<<< HEAD
  * @version 26.1.2022
+=======
+ * @version 31.1.2022
+>>>>>>> tyo2
  *
  */
 public class ElokuvakirjastoMain extends Application {
@@ -22,7 +26,11 @@ public class ElokuvakirjastoMain extends Application {
             Scene scene = new Scene(root);
             scene.getStylesheets().add(getClass().getResource("elokuvakirjasto.css").toExternalForm());
             primaryStage.setScene(scene);
+<<<<<<< HEAD
             primaryStage.setTitle("elokuvakirjasto");
+=======
+            primaryStage.setTitle("Elokuvakirjasto");
+>>>>>>> tyo2
             primaryStage.show();
         } catch(Exception e) {
             e.printStackTrace();
